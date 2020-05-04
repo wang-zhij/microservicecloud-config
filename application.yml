@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active:
+    - dev
+    
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-wzj-dev
+    
+---
+
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-wzj-test
+
+
+#保存为utf-8格式
+  
